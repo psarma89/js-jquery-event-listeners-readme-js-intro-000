@@ -7,7 +7,9 @@ function getIt(){
 }
 
 function frameIt(){
-  $().on()
+  $('img').on('load',function(){
+    $('img').addClass("")
+  })
 }
 
 $(document).ready(function(){
