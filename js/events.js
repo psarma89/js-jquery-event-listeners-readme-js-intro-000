@@ -18,6 +18,12 @@ function submitIt(){
   })
 }
 
+function pressIt(){
+  $('input').on('keydown', function(e){
+    
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
